@@ -22,7 +22,6 @@ echo $CFLAGS
   --sysroot="$NDK_SYSROOT" \
   --host="$HOST" \
   --enable-pic \
-  --disable-asm \
   --enable-static \
   --disable-shared \
   --prefix="${TOOLCHAIN_PREFIX}" \
